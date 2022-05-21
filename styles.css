@@ -1,0 +1,63 @@
+html {
+    background-color: hsl(0, 0%, 85%);
+}
+
+.web-title {
+    margin-left: 15rem;
+}
+
+.sidebar {
+    position: fixed;
+    left: 10px;
+    width: 16rem;
+    margin-top: 0;
+}
+
+.sidebar li {
+    list-style: none;
+}
+
+.sidebar li a {
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+.sidebar li:hover {
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    margin-left: 15rem;
+    border: 2px solid gray;
+    padding: 0px 10px;
+    background-color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.gray {
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.container {
+    width: 70%;
+}
